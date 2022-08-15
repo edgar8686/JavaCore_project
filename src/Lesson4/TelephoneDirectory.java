@@ -8,7 +8,7 @@ import java.util.Map;
 public class TelephoneDirectory {
 
     private Map<String, ArrayList<Integer>> familyNumber = new HashMap<>();
-    ArrayList<Integer> phoneNumber;
+    private ArrayList<Integer> phoneNumber;
 
 
     public void add(String name, int number1) {
