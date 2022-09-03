@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 public class Lesson6 {
 
     public static void main(String[] args) {
-        List<Student> students = Data.getStudentsList(); // в данном случае класс Data содержит тестовые данные, у вас они будут свои
-        Course randomCourse = Data.getRandomCourse(); // ваша реализация подачи случайного курса, можно просто создать объект и его передавать
+        List<Student> students = Data.getStudentsList();
+        Course randomCourse = Data.getRandomCourse();
         System.out.println(getUnicsCourses(students));
         System.out.println(inquisitiveStudents(students));
         System.out.println(getStudentsFromCourse(students, randomCourse));
